@@ -2,12 +2,12 @@
 import json
 
 class Tarefa:
-    def __init__(self, nome, prioridade, feita=False):
+    def __init__(self, nome, prioridade, area_vida ,feita=False):
         self.nome = nome
         self.prioridade = prioridade
+        self.area_vida = area_vida
         self.feita = feita
-
-
+        
 
 
 areas_vida = {"Faculdade":2,
